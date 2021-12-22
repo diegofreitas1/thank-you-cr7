@@ -1,0 +1,12 @@
+name: 'Thank You CR7'
+description: 'Say "Thank you" CR7 style to new pull requests'
+author: 'Diego Freitas'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub token'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js' 

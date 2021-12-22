@@ -1,0 +1,25 @@
+{
+  "name": "thank-you-cr7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegofreitas1/thank-you-cr7.git"
+  },
+  "author": "Diego Freitas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegofreitas1/thank-you-cr7/issues"
+  },
+  "homepage": "https://github.com/diegofreitas1/thank-you-cr7#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "@vercel/ncc": "^0.33.1"
+  }
+}
